@@ -1,3 +1,8 @@
+﻿using HXQ.DoAn.Data.Context;
+using HXQ.DoAn.Data.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 namespace HXQ.DoAn.MVC
 {
     public class Program
@@ -8,6 +13,25 @@ namespace HXQ.DoAn.MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // 🔹 Đăng ký DbContext với SQL Server
+            builder.Services.AddDbContext<DoAnDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            // 🔹 Cấu hình Identity (Account & Role)
+            builder.Services.AddIdentity<Account, Role>()
+                .AddEntityFrameworkStores<DoAnDbContext>()
+                .AddDefaultTokenProviders();
+
+            //builder.Services.ConfigureApplicationCookie(options =>
+            //{
+            //    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+            //    options.SlidingExpiration = true;
+
+            //    options.LoginPath = "/Login/Login";
+            //    options.LogoutPath = "/Login/Logout";
+            //    options.AccessDeniedPath = "/Login/AccessDenied";
+            //});
 
             var app = builder.Build();
 
@@ -24,6 +48,7 @@ namespace HXQ.DoAn.MVC
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

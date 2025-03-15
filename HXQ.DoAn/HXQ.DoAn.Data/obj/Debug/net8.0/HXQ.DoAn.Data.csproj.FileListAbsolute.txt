@@ -1,0 +1,15 @@
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\bin\Debug\net8.0\HXQ.DoAn.Data.deps.json
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\bin\Debug\net8.0\HXQ.DoAn.Data.runtimeconfig.json
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\bin\Debug\net8.0\HXQ.DoAn.Data.dll
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\bin\Debug\net8.0\HXQ.DoAn.Data.pdb
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.csproj.AssemblyReference.cache
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.AssemblyInfoInputs.cache
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.AssemblyInfo.cs
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.csproj.CoreCompileInputs.cache
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.sourcelink.json
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.dll
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\refint\HXQ.DoAn.Data.dll
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.pdb
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\HXQ.DoAn.Data.genruntimeconfig.cache
+E:\k8\doan\HXQ.DoAn\HXQ.DoAn.Data\obj\Debug\net8.0\ref\HXQ.DoAn.Data.dll
